@@ -116,7 +116,7 @@ int WINAPI WinMain(HINSTANCE inst, HINSTANCE prev, LPSTR cmd, int show) {
 
     RECT rc = {0, 0, win_w, win_h};
     AdjustWindowRect(&rc, WS_OVERLAPPEDWINDOW, FALSE);
-    HWND hwnd = CreateWindowA("FF1Static", "World of Magic | F2 menu | F5 salvar | F9 carregar",
+    HWND hwnd = CreateWindowA("WOMStatic", "World of Magic Starring Mickey Mouse | F2 menu | F5 save | F9 loadsave",
                               WS_OVERLAPPEDWINDOW,
                               CW_USEDEFAULT, CW_USEDEFAULT,
                               rc.right - rc.left, rc.bottom - rc.top,
